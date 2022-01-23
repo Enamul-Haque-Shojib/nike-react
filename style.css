@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaisei+HarunoUmi&family=Poppins:wght@500;600;700&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Kaisei HarunoUmi', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: #FFF9F4;
+    
+}
+.banner{
+    background-color: #FFF9F4;
+}
+
+.shoes-border-radius{
+    border-radius: 20px;
+}
+.bg-grey{
+    background-image: url('grey.png');
+}
+
+.shopping-image{
+    padding-left:100px;
+    padding-top:100px;
+}
+@media only screen and (max-width: 992px) {
+    .banner-title{
+        padding:60px;
+        order:1
+    }
+    .banner-image{
+        order:2
+    }
+    .shoes-title{
+        text-align: center;
+    }
+    .shopping-image{
+        padding-bottom: 50px;
+        padding-right: 95px;
+       
+
+        
+        
+    }
+   
+}
